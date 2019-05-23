@@ -1,0 +1,3 @@
+bijay 133 java
+jack 166 math
+vikas 200 physics
