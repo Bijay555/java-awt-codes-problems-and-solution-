@@ -9,14 +9,16 @@ public static void main(String[] args) {
     Button b=new Button("Click Here");  
     b.setBounds(50,100,60,30);  
     //2nd step  
-    b.addActionListener(this);  
+    b.addActionListener(this);
     f.add(b);f.add(tf);  
     f.setSize(400,400);  
     f.setLayout(null);  
-    f.setVisible(true);   
+    f.setVisible(true);
+    tf.setText("Welcome to Javatpoint.");
+
 }  
 //3rd step  
-public void actionPerformed(ActionEvent e){  
-            tf.setText("Welcome to Javatpoint.");  
+public void actionPerformed(ActionEvent e){
+
 }  
 }  
