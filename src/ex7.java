@@ -3,11 +3,11 @@ import java.util.*;
 import java.awt.event.*;
 import java.io.*;
 
-class teacher{
+class Teacher2{
     String name;
     String salary;
     String subject;
-    public teacher(String name,String salary,String subject){
+    public Teacher2(String name,String salary,String subject){
         this.name=name;
         this.salary=salary;
         this.subject=subject;
@@ -20,11 +20,11 @@ class teacher{
     }
 }
 
-class student{
+class Student2{
     String names;
     String rollno;
     String section;
-    public student(String names,String rollno,String section){
+    public Student2(String names,String rollno,String section){
         this.names=names;
         this.rollno=rollno;
         this.section=section;
